@@ -8,7 +8,7 @@ export default (events = {}, action) => {
             // { id = "1" ・・・・
             // change
             // 1 : { id = "1" ・・・・
-            return _.mapKeys(action.response.data, 'id')
+            return _.mapKeys(action.response.data, 'id');
         default:
             return events
     }
